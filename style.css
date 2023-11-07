@@ -12,7 +12,6 @@ html {
 
 body {
   width: 70%;
-  min-width: 800px;
   margin: 0 auto;
 }
 
@@ -134,4 +133,12 @@ aside img {
 
 footer {
   margin-top: 10px;
+}
+
+/* Media */
+
+@media (max-width: 767px) {
+  body {
+    width: 100%;
+  }
 }
